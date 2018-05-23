@@ -169,6 +169,7 @@ h3,
   padding: 30px;
   /* margin: 0 0 100px; */
   margin-left: 50px;
+  margin-bttom: 50px;
   background: #fff;
   border: 1px solid #ddd;
 
@@ -192,7 +193,7 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: 0.8;
-  float: right;
+
 }
 
 .work h3 {
