@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 22px;
   color: black;
 }
 
@@ -29,7 +29,8 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+
 }
 
 p:last-child {
@@ -80,7 +81,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #DBD5B5;
+  background: #3581B8;
 }
 
 nav {
@@ -98,6 +99,7 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  font-weight: bold;
 }
 
 nav a:first-child {
@@ -114,7 +116,7 @@ footer {
   color: #ccc;
   width: 100%;
   text-align: center;
-  background: #666;
+  background: #FF1447;
   /* border-top: 8px solid black; */
 }
 
@@ -123,11 +125,12 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: left;
+  float: right;
   width: 100%;
   max-width: 280px;
   padding: 30px;
   margin-bottom: 20px;
+  margin-right: 20px;
   margin-left: 5px;
   background: #fff;
   border: 1px solid #ddd;
@@ -161,12 +164,14 @@ h3,
 
 .main-section {
   float: left;
-  width: 80%;
+  width: 90%;
   /* max-width: 650px; */
   padding: 30px;
-  margin: 0 0 100px;
+  /* margin: 0 0 100px; */
+  margin-left: 50px;
   background: #fff;
   border: 1px solid #ddd;
+
 }
 
 /* portfolio page */
@@ -187,19 +192,20 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  float: right;
 }
 
 .work h3 {
-  position: absolute;
   bottom: 20px;
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
+  margin-top: 5px;
   font-weight: 300;
   line-height: 30px;
   color: black;
   text-align: center;
-  background: #7B8272;
+  background: #CD5C5C;
   border-bottom: 0;
 }
 
